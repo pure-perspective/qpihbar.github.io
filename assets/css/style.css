@@ -813,13 +813,13 @@ html, body {
 
 .hero-text h1 {
     position: relative;
-    top: 200px;
+    transform: translateY(20vh);
     margin: 0;
 }
 
 .hero-text p {
     position: relative;
-    top: 180px;
+    transform: translateY(17vh);
     margin: 45px 0 30px;
     font-size: 20px;
     color: #26272d;
@@ -827,7 +827,7 @@ html, body {
 
 .hero-text .btn {
     position: relative;
-    top: 180px;
+    transform: translateY(17vh);
     background-color: transparent;
 }
 
@@ -933,7 +933,6 @@ html, body {
 
 .hero_2-text p {
     position: relative;
-    top: 180px;
     margin: 45px 0 30px;
     font-size: 20px;
     color: #26272d;
@@ -941,7 +940,6 @@ html, body {
 
 .hero_2-text .btn {
     position: relative;
-    top: 180px;
     background-color: transparent;
 }
 
