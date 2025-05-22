@@ -781,7 +781,7 @@ html, body {
 
 .hero { 
     background: url(../img/11_14.jpg) no-repeat center / cover; 
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     display: table;
     position: relative;
