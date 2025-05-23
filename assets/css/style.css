@@ -1217,7 +1217,7 @@ html, body {
 }
 
 .site-footer > .container {
-    padding-bottom: 170px;
+    padding-bottom: 70px;
 }
 
 .site-footer .list-unstyled li + li {
@@ -1246,6 +1246,11 @@ html, body {
 .contact-links li p {
     margin-left: 40px;
 }
+
+.contact-links li a {
+    white-space: nowrap;
+    display: inline-block;
+  }
 
 .list-unstyled {
     margin-bottom: 0;
