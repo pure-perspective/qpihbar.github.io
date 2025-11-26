@@ -42,22 +42,22 @@ a {
     -o-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
     cursor: pointer;
-    color: #9fa3a7;
+    color:#499afe ;
 }
 
 a:focus,
 a:hover {
-    color: #499afe;
+    color: #004dab;
     outline: 0 none;
     text-decoration: none;
 }
 
 p {
     margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 300;
-    color: #9fa3a7;
-    line-height: 22px;
+    font-size: 18px;
+    font-weight: 330;
+    color: #585d5f;
+    line-height: 27px;
 }
 
 h1 {
@@ -66,6 +66,10 @@ h1 {
 
 h2 {
     font-size: 42px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -81,7 +85,7 @@ p + p {
     line-height: 50px;
     min-width: 200px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 330;
     border: 0;
     border-radius: 50px;
     color: #26272d;
@@ -126,6 +130,8 @@ button.btn:focus {
     background-color: #499afe;
     color: #fff;    
 }
+
+
 
 /* 
  * Forms 
@@ -666,7 +672,7 @@ html, body {
 }
 
 .site-title a:hover {
-    color: #fff;
+    color: #26272d;
 }
 
 /* Navigation */
@@ -1716,3 +1722,26 @@ a.linkedin-bg:hover {
   height: 500px;
   width: 100%
 }
+
+
+.lesson-link {
+    margin: 5px 0;
+    padding: 6px 10px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+  }
+  
+  .lesson-link a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .lesson-link:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .lesson-link.active {
+    font-weight: bold;
+    border-left-color: #00bfa5; /* 或你想要的高亮色 */
+    background-color: #eefdfb;
+  }
